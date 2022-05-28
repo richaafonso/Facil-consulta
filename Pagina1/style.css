@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif; 
+
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFE776;
+}
+
+
+.caixa{
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 85%;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+    border-radius:22px;
+    box-shadow: 0 0 1em #b9b9b9;
+   
+}
+
+h1{
+    position: absolute;
+    margin: 20px 0 0 65px;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    color: #483698;
+}
+
+h3{
+    font-size: 15px;
+    margin: 88px 0 0 66px;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.formulario{
+    display: inline-block;
+    margin: 134px 0 0 67px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.referencia{
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nome{
+    margin-top: 8px;
+    font-size: 10px;
+    height: 30px;
+    width: 300px;
+} 
+
+#cpf, #celular{
+    margin: 8px 0 20px 0;
+    font-size: 10px;
+    padding: 4px 10px 4px 19px;
+}
+
+.seletores{
+    margin-top: 8px;
+    display: flex;
+    position: absolute;
+}
+
+#estado, #cidade{
+    margin: 8px 30px 20px 0;
+    font-size: 10px;
+    padding: 4px 56px 4px 10px;
+}
+
+.imagem{
+    position: absolute;
+    display: inline-block;
+    bottom: 400px;
+}
+
+
+img{
+    top: -79px;
+    position: absolute;
+    width: 450px;
+}
+
+.barra{
+    margin-left: 44px;
+    margin-top: 87px;
+    width: 242px;
+    position: absolute;
+    text-align: end;
+    font-size: 16px;
+    color: #493898;
+    font-weight: 600;
+    font-family: 'Comfortaa';
+}
+
+
+.progress{
+    margin: 0 0 0 -238px;
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 220px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.progress-bar{
+    height: 20px;
+    width: 110px;
+    background-color: #493898;
+    border-radius: 2px;
+}
+
+
+.botao{
+    margin-top: 106px;
+    height: 30px;
+    border-radius: 12px;
+    width: 290px;
+    border: none;
+    background-color: #493898;
+    color: #ffffff;
+    font-family: 'Comfortaa';
+    cursor: pointer;
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+   
+    img{
+        display:none;
+    }
+    
+    .caixa{
+    
+        background-color: #FFFFFF; 
+        position: absolute;
+        margin-top:80px;
+        height: 92vh;
+        width: 100vw;
+        border-radius: 50px;
+        box-shadow: 0 0 1em #b9b9b9;
+        top: 0;
+        left: 0;
+    }
+
+    .titulo{
+
+        margin: 28px 27px;
+        position: absolute;
+        font-size: 23px;
+        font-family: 'Comfortaa', cursive;
+        color: #483698;
+
+    }
+
+    .subtitulo{
+        display: inline-block;
+        margin: 98px 27px;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    .formulario{
+
+        margin: 166px 0 0 27px;
+        position: absolute;
+        display: inline-block;
+
+    }
+
+    .referencia{
+        font-size: 15px;
+    }
+
+    #nome{
+        border-radius: 7px;
+        margin: 5px 0 15px 0;
+        font-size: 13px;
+        height: 40px;
+    width: 360px;
+    }
+
+    #cpf, #celular{
+        margin: 15px 0 30px 0;
+        padding: 10px 50px;
+        font-size: 13px;
+        border-radius: 7px;
+    }
+
+    #estado, #cidade{
+        margin-bottom: 24px;
+        margin-top: 13px;
+        margin-left: 3px;
+        padding: 10px 49px 10px 40px;
+        font-size: 13px; 
+    }
+
+    .barra{
+        position: absolute;
+        margin: 120px -54px;
+        width: 400px ;
+        font-size: 21px;
+    }
+
+    .progress{
+        margin-left: -285px;
+        width: 278px;
+        height: 25px;
+    }
+
+    .progress-bar{
+        height: 25px;
+        width: 139px;
+    }
+
+    .botao{
+        margin-top: 152px;
+        position: absolute;
+        width: 347px;
+        height: 39px;
+        margin-left: 1px;
+        font-size: 20px;
+        
+    }
+
+}

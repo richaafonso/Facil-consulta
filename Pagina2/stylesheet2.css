@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif; 
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFE776;
+
+}
+
+.voltar{
+    display: inline-block;
+    position: absolute;
+    margin-left: 276px;
+    margin-top: 20px;
+    height: 25px;
+    border: none;
+    background-color: #FFE776;
+    font-size: 18px;
+    font-weight: 600;
+    color: #493898;
+    cursor: pointer;
+}
+
+.caixa{
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 85%;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+    border-radius:22px;
+    box-shadow: 0 0 1em #b9b9b9;
+   
+}
+
+h1{
+    position: absolute;
+    margin: 20px 0 0 65px;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    color: #483698;
+}
+
+h3{
+    font-size: 15px;
+    margin: 88px 0 0 66px;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bau{
+    display: inline-block;
+    margin: 134px 0 0 67px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formulario{
+    display: inline-block;
+}
+
+#specialty{
+    margin: 10px 0  10px 0; 
+    font-size: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+#valor{
+    margin: 10px  0 ; 
+    font-size: 10px;
+    height: 30px;
+    width: 230px;
+}
+.referencia{
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    font-size: 12px;
+}
+
+.referencia2{
+    margin: 7px 63px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+#cash, #transfer, #card{
+    margin-left: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+}
+.pagamento{
+    width: 300px;
+    height: 30px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 1em #b9b9b9;
+   
+}
+.opcoes{
+    width: 300px;
+    height: 130px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 1em #b9b9b9;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    display: none;
+}
+
+.refere3{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+.barra{
+    margin-left: 240px;
+    margin-top: 20px;
+    width: 242px;
+    position: absolute;
+    font-size: 16px;
+    color: #493898;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive ;
+    
+}
+
+
+.progress{
+    margin: 0 0 0 -238px;
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 220px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+
+}
+
+.progress-bar{
+    height: 20px;
+    width: 220px;
+    background-color: #493898;
+    border-radius: 2px;
+}
+
+.botao{
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 12px;
+    width: 290px;
+    border: none;
+    background-color: #493898;
+    color: #ffffff;
+    font-family: 'Comfortaa';
+    cursor: pointer;
+    text-align: center;
+   
+    
+}
+
+.imagem{
+    display: inline-block;
+    position: absolute;
+    height: 300px;
+    margin-left: 20px;
+    
+}
+
+@media screen and  (max-width: 900px) {
+    
+    .imagem{
+        display: none;
+    }
+
+    .voltar{
+        margin-left: 20px;
+    }
+
+    .caixa{
+        background-color: #FFFFFF; 
+        position: absolute;
+        margin-top:89px;
+        height: 90vh;
+        width: 100vw;
+        border-radius: 35px;
+        box-shadow: 0 0 1em #b9b9b9;
+        top: 0;
+        left: 0;
+
+    }
+
+    .titulo{
+        margin: 28px 27px;
+        position: absolute;
+        font-size: 23px;
+        font-family: 'Comfortaa', cursive;
+        color: #483698;
+    }
+
+    .subtitulo{
+        display: inline-block;
+        margin: 98px 27px;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    .bau{
+        margin: 166px 0 0 27px;
+        position: absolute;
+        display: inline-block
+
+    }
+
+    #specialty{
+        margin-top: 20px;
+        font-size: 13px;
+        height: 40px;
+        width: 359px;
+
+    }
+
+    #valor{
+        height: 40px;
+        width: 250px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .referencia{
+        margin: 20px 0 20px 0;
+        font-size: 13px;
+    }
+
+    .referencia2{
+        font-size: 15px;
+        margin: 8px 0 5px 80px;
+    }
+
+    #cash, #transfer, #card{
+        margin-left: 30px;
+        margin-top:12px;
+        
+
+    }
+
+    .pagamento{
+        width: 360px;
+        height: 40px;
+    }
+
+    .opcoes{
+        width: 360px;
+        font-size: 15px;
+    }
+
+    .barra{
+        width: 75px;
+        margin-top: 25px;
+        margin-left: 304px;
+    }
+
+    .progress{
+        margin-left: -302px;
+        width: 290px;
+    }
+
+    .progress-bar{
+        width: 290px;
+    }
+
+
+
+    .botao{
+        height: 35px;
+        width: 360px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
